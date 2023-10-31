@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  font-size: 62.5%;
+  background: black;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 20px;
+  font-family: Nosifer;
+  text-align: center;
+  color: red;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+form input {
+  height: 30px;
+  width: 500px;
+  border: none;
+  background: transparent;
+  color: white;
+  border-bottom: 1px solid #fff;
+  margin: 10px;
+}
+form button {
+  width: 100px;
+  border: none;
+  font-family: Nosifer;
+  background: transparent;
+  color: rgb(255, 0, 0);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.container {
+  max-width: 1895px;
+  /* background: blue; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.item {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  background: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 5px 4px 20px 12px rgba(245, 0, 0, 0.829);
+}
+
+span {
+  font-size: 2rem;
+  font-family: Astloch;
+  font-weight: 900;
+  color: white;
+}
+
+p {
+  margin: 5px 20px;
+  font-size: 1.2rem;
+  font-family: Fleur De Leah;
+  color: #ddd;
+}
